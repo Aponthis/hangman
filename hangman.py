@@ -20,7 +20,7 @@ printed_phrase = ""
 
 def randomizePhrase():
     global random_phrase
-    random_phrase = possible_phrases[randint(0, (len(possible_phrases) -1))] #generates a random phrase from the list
+    random_phrase = possible_phrases[randint(0, (len(possible_phrases) - 1))] #generates a random phrase from the list
 
 def showPhrase():
     '''Shows the phrase in all its glory, with underscores for unguessed
